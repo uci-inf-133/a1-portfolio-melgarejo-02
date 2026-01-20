@@ -55,3 +55,16 @@ footer {
   color: #555;
   text-align: center;
 }
+
+.two-columns {
+  display: flex;
+  gap: 14px;
+}
+
+@media (max-width: 700px) {
+  .two-columns {
+    flex-direction: column;
+  }
+}
+
+
