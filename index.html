@@ -1,24 +1,77 @@
 <!doctype html>
 <html lang="en">
-
 <!--
-WRITTEN BY: Your name here
-EMAIL: Your email here
+WRITTEN BY: Emily Melgarejo
+EMAIL: melgare2@uci.edu
 -->
-
 <head>
   <meta charset="utf-8">
-  <meta name="author" content="Your name here">
-  <meta name="description" content="description of your page">
-   <!-- you would link to an external stylesheet here! -->
-   <!-- you would also link to Bootstrap here! -->
-  <title>title here</title>
+  <meta name="author" content="Emily Melgarejo">
+  <meta name="description" content="Portfolio website for Emily Melgarejo.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emily Melgarejo | Home</title>
+  <link rel="stylesheet" href="styles.css">
 </head>
+
 <body>
-  <p>
-    <a href="http://validator.w3.org/check?uri=referer">
-       W3C validator
-    </a>
-  </p>
+  <header>
+    <div class="container">
+      <h1>Emily Melgarejo</h1>
+      <nav aria-label="Main navigation">
+        <a href="index.html" aria-current="page">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Welcome</h2>
+
+      <div class="two-columns">
+        <div>
+          <p>
+            Hi! I’m Emily Melgarejo, I’m a second-year UCI Informatics student. I’m learning web development.
+            This site is a simple portfolio for INF 133.
+          </p>
+
+          <p>
+            Links:
+            <a href="https://www.linkedin.com/in/emily-melgarejo-898987325" target="_blank" rel="noopener">LinkedIn</a>
+            |
+            <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+          </p>
+        </div>
+
+        <div>
+          <img src="images/photo.jpeg" alt="A profile photo of Emily Melgarejo.">
+        </div>
+      </div>
+    </section>
+
+    <section class="card">
+      <h2>Skills</h2>
+      <ul>
+        <li>Java</li>
+        <li>Python</li>
+        <li>Git/GitHub</li>
+      </ul>
+    </section>
+
+    <section class="card">
+      <h2>Validation</h2>
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer">W3C validator</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Emily Melgarejo</p>
+    </div>
+  </footer>
 </body>
 </html>
