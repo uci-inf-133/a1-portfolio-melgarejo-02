@@ -1,1 +1,71 @@
+<!doctype html>
+<html lang="en">
+<!--
+WRITTEN BY: Emily Melgarejo
+EMAIL: melgare2@uci.edu
+-->
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Emily Melgarejo">
+  <meta name="description" content="Contact page.">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Emily Melgarejo | Contact</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
 
+<body>
+  <header>
+    <div class="container">
+      <h1>Contact</h1>
+      <nav aria-label="Main navigation">
+        <a href="index.html">Home</a>
+        <a href="aboutme.html">About</a>
+        <a href="projects.html">Projects</a>
+        <a href="contact.html" aria-current="page">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Send Me a Message</h2>
+
+      <form action="#" method="post">
+        <label for="name">Your name</label>
+        <input id="name" name="name" type="text" required>
+
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" required>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" required></textarea>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+
+    <section class="card">
+      <h2>Other</h2>
+      <p>Email: <a href="mailto:melgare2@uci.edu">melgare2@uci.edu</a></p>
+      <p>
+        <a href="https://www.linkedin.com/in/emily-melgarejo-898987325" target="_blank" rel="noopener">LinkedIn</a>
+        |
+        <a href="resume.pdf" target="_blank" rel="noopener">Resume (PDF)</a>
+      </p>
+    </section>
+
+    <section class="card">
+      <h2>Validation</h2>
+      <p>
+        <a href="https://validator.w3.org/check?uri=referer">W3C validator</a>
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container">
+      <p>© 2026 Emily Melgarejo</p>
+    </div>
+  </footer>
+</body>
+</html>
