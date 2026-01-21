@@ -1,15 +1,16 @@
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Poppins", Arial, Helvetica, sans-serif;
   margin: 0;
   line-height: 1.6;
-  background: #f6f6f6;
-  color: #222;
+  background: #f6f1ff;
+  color: #2b1b3a;
 }
 
 header {
-  background: #222;
-  color: white;
+  background: #ffffff;
+  color: #2b1b3a;
   padding: 12px 0;
+  border-bottom: 1px solid #e7dcf7;
 }
 
 .container {
@@ -19,16 +20,17 @@ header {
 }
 
 nav a {
-  color: white;
+  color: #5b2a86;
   text-decoration: none;
   margin-right: 12px;
   padding: 6px 8px;
   border-radius: 6px;
+  font-weight: 600;
 }
 
 nav a:hover,
 nav a:focus {
-  background: #444;
+  background: #efe3ff;
 }
 
 main {
@@ -36,29 +38,30 @@ main {
 }
 
 .card {
-  background: white;
+  background: #ffffff;
   padding: 16px;
   border-radius: 10px;
   margin-bottom: 14px;
-  border: 1px solid #ddd;
+  border: 1px solid #e7dcf7;
 }
 
 img {
   max-width: 100%;
   height: auto;
   border-radius: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid #e7dcf7;
 }
 
 footer {
   padding: 16px 0;
-  color: #555;
+  color: #4a4a5e;
   text-align: center;
 }
 
 .two-columns {
   display: flex;
   gap: 14px;
+  align-items: center;
 }
 
 @media (max-width: 700px) {
@@ -67,4 +70,60 @@ footer {
   }
 }
 
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 600;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  margin-top: 6px;
+  border: 1px solid #cdb8ea;
+  border-radius: 8px;
+  font: inherit;
+  background: #ffffff;
+  color: inherit;
+}
+
+textarea {
+  min-height: 120px;
+  resize: vertical;
+}
+
+button {
+  margin-top: 12px;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 8px;
+  background: #5b2a86;
+  color: white;
+  cursor: pointer;
+  font-weight: 600;
+}
+
+button:hover,
+button:focus {
+  background: #4a1f73;
+}
+
+.card ul {
+  margin-top: 0;
+}
+
+.profile-pic {
+  width: 230px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.about-pic {
+  width: 240px;
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
 
