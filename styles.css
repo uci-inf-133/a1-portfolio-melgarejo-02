@@ -128,3 +128,18 @@ button:focus {
   margin: 0 auto;
 }
 
+.skills-list {
+  columns: 2;
+  column-gap: 40px;
+}
+
+.skills-list li {
+  break-inside: avoid;
+  margin-bottom: 6px;
+}
+
+@media (max-width: 700px) {
+  .skills-list {
+    columns: 1;
+  }
+}
