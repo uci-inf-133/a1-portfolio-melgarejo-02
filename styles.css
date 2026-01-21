@@ -143,3 +143,9 @@ button:focus {
     columns: 1;
   }
 }
+.project-shot {
+  max-width: 300px;
+  width: 100%;
+  display: block;
+  margin: 10px auto;
+}
